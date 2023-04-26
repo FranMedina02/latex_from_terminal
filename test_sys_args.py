@@ -1,9 +1,9 @@
 from sys import argv
 
-def default_action():
+def default_action(*args):
     return 'Funcion default'
 
-def hola():
+def hola(*args):
     return 'Funcion Hola'
 
 def matriz3x3(matriz):
